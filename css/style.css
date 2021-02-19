@@ -104,29 +104,28 @@ tr:hover{
 /*Req 7*/
 table{
     border: 2px solid #000000;
-    border-radius: 6px;
+    border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
 }
 
 thead tr:first-child th:first-child{
-  border-top-left-radius: 6px;
+  border-top-left-radius: 10px;
 }
 
 /*Add selectors and rules here*/
 /* top right corner */
 thead tr:first-child th:last-child{
-  border-top-right-radius: 6px;
+  border-top-right-radius: 10px;
 }
 
 tr:last-child .rowhead{
-  border-bottom-left-radius: 6px;
+  border-bottom-left-radius: 10px;
 }
 
 tr:last-child td{
-  border-bottom-right-radius: 6px;
+  border-bottom-right-radius: 10px;
 }
-
 
 /*Req 8*/
 footer{
